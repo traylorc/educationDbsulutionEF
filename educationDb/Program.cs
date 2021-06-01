@@ -19,7 +19,7 @@ namespace educationDb
                                      select new { s.Firstname, s.Lastname, Major = m.Description };
             foreach(var s in studentswithmajors)
             {
-                Console.WriteLine($"{s.Firstname} {s.Lastname} || {s.Major}");
+                Console.WriteLine($"{s.Firstname} {s.Lastname} || {s.Major}"); 
             }
                            
                             
